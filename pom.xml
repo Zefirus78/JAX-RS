@@ -77,6 +77,7 @@
                 В багатьох випадках файл web.xml може взагалі не знадобитися.
                 Для запобігання помилки, в <failOnMissingWebXml> прописуємо false.
             -->
+            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -87,5 +88,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

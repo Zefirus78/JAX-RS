@@ -3,7 +3,7 @@ package org.main.service;
 import jakarta.inject.Inject;
 import org.main.dto.user.request.UserDtoRequest;
 import org.main.entity.User;
-import org.main.repository.UserRepository;
+import org.main.repository.user.UserRepository;
 
 import java.util.List;
 import java.util.Objects;
